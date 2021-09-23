@@ -11,7 +11,7 @@ NUM_CLASSES = 256  # Number of output neurons
 INPUT_SIZE = 1400
 
 # Batch Queue parameters
-TRAIN_BATCH_SIZE = 400  # Batch size for training (scaled linearly with number of gpus used)
+TRAIN_BATCH_SIZE = 128  # Batch size for training (scaled linearly with number of gpus used)
 NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 100_000  # Number of training examples
 VALIDATION_FROM_ATTACK_SET = True
 EVAL_BATCH_SIZE = TRAIN_BATCH_SIZE  # Batch size for validation
